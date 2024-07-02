@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(rgb(168, 181, 255), rgb(141, 65, 177));
+    height: 150vh;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+button{
+    border-radius: 12px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    color: white;
+    background-color: black;
+    font-family: monospace;
+    font-size: 17px;
+    border-color: white;
+}
+
+button:hover{
+    transition: 0.5s;
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(99, 24, 150);
+    border: 0px;
+}
+
+input{
+    background-color: #684788;
+    color: white;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border-radius: 12px;
+    border: 2px white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+input:hover{
+    transition: 0.5s;
+    padding: 12px;
+}
+
+.resposta{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.resposta:hover{
+    transition: 0.5s;
+    font-size: 1.4rem;
+}
